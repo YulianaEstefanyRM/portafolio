@@ -1,0 +1,30 @@
+nav {
+  background-color: #333;
+  padding: 1em;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.content {
+  padding: 2em;
+}
+
+p{
+  text-align: justify; /* Justifica el texto */
+}
+
+.container {
+  display: flex;
+  flex-direction: row; /* Cambia a fila para dividir verticalmente */
+  justify-content: space-around; /* Espacio entre tarjetas */
+}
+

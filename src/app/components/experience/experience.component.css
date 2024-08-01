@@ -1,0 +1,39 @@
+p{
+  text-align: justify; /* Justifica el texto */
+}
+.card {
+  margin-bottom: 20px; /* Ajusta este valor según tus necesidades */
+}
+
+
+
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-wrap: wrap; /* Permitir que las tarjetas se envuelvan */
+  gap: 20px; /* Espacio entre las tarjetas */
+}
+
+.card {
+
+
+  display: flex; /* Flexbox para centrar texto */
+  flex-direction: column; /* Organizar elementos en columna */
+  justify-content: center; /* Centrar contenido verticalmente */
+  align-items: flex-start; /* Alinear contenido al inicio */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+  padding: 20px; /* Espaciado interno */
+  transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+.card:hover {
+  background-color: #13181c; /* Color de fondo cuando el cursor está encima */
+}
+
+
+.section {
+  margin-bottom: 20px; /* Espacio entre secciones */
+}

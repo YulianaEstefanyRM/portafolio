@@ -1,0 +1,57 @@
+.container {
+    display: flex; /* Activa el diseño de flexbox */
+    justify-content: space-between; /* Espacio entre las tarjetas */
+    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan si no caben en una fila */
+    margin: 30px; /* Espacio alrededor del contenedor */
+    height: 120vh;
+
+}
+
+.left-section {
+  flex: 1; /* Ocupa la mitad del ancho */
+  padding: 90px 20px;
+
+
+  color: white; /* Color de texto */
+}
+
+.right-section {
+  flex: 1; /* Ocupa la otra mitad del ancho */
+  padding: 90px;
+  /* Color de fondo para la sección derecha */
+  color: white; /* Color de texto */
+
+}
+h1{
+  font-weight: bold;
+}
+a {
+  text-decoration: none; /* Quita el subrayado del enlace */
+}
+html {
+  scroll-behavior: smooth;
+}
+.sm\:text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.navegacion{
+  margin-top: 50px;
+}
+
+.iconos{
+  margin-top: 150px;
+}
+
+.sticky-test{
+  width: 100%;
+
+            padding: 10px;
+
+            position: sticky;
+            top: 0;
+            height: 100vh;
+            overflow: hidden; /* Evita el scroll en la parte izquierda */
+
+}
