@@ -1,9 +1,10 @@
-.imagen {
-  background-image: url('./../../../img/crud.JPG'); /* Ruta de la imagen */
 
+
+
+p,ul {
+  text-align: justify; /* Justificar el texto */
 }
 
-
-p {
-  text-align: justify; /* Justificar el texto */
+.badge {
+  margin-right: 10px; /* Espacio entre los badges */
 }
