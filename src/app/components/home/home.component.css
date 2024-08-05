@@ -14,17 +14,17 @@ nav a {
   text-decoration: none;
 }
 
-.content {
-  padding: 2em;
-}
+
 
 p{
   text-align: justify; /* Justifica el texto */
 }
 
-.container {
-  display: flex;
-  flex-direction: row; /* Cambia a fila para dividir verticalmente */
-  justify-content: space-around; /* Espacio entre tarjetas */
+.card{
+  width: 100%;
 }
+.justify{
+  text-align: justify; /* Justifica el texto */
+}
+
 

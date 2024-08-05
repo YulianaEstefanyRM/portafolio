@@ -1,15 +1,17 @@
 <html class="scroll-smooth">
-<div class="container">
+
+
+<div class="container  "  >
   <div class="left-section sticky-test ">
     <header class="section header text-danger ">
       <h1 class="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">Yuliana Rosero Morales</h1>
       <h2>Ingeniera en sistemas</h2>
       <h3 class="text-secondary">Universidad de Nariño</h3>
       <nav>
-        <ul class="navegacion">
-          <li><a  routerLink="/">Inicio</a></li>
-          <li><a  routerLink="/experience">Experiencia</a></li>
-          <li><a  routerLink="/about">Mis proyectos</a></li>
+        <ul class="navegacion mb-5">
+          <li class="mb-2 "><a  href="#first-section " >Inicio</a></li>
+          <li class="mb-2"><a  href="#second-section">Experiencia</a></li>
+          <li><a  href="#three-section">Mis proyectos</a></li>
 
         <!--   <li><a routerLink="/education">Estudios</a></li>
           <li><a routerLink="/contact">Contacto</a></li> -->
@@ -46,14 +48,15 @@
   <div class="right-section">
     <main class="section main-content">
       <!-- <router-outlet></router-outlet> -->
-     <app-home></app-home>
-      <app-experience></app-experience>
-      <app-about></app-about>
+     <app-home id="first-section"></app-home>
+      <app-experience id="second-section"></app-experience>
+      <app-about id="three-section"></app-about>
+
 
     </main>
   </div>
 </div>
-
+<div class="cursor" #cursor></div>
 </html>
 
 

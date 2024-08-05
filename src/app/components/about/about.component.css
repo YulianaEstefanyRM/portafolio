@@ -1,0 +1,9 @@
+.imagen {
+  background-image: url('./../../../img/crud.JPG'); /* Ruta de la imagen */
+
+}
+
+
+p {
+  text-align: justify; /* Justificar el texto */
+}

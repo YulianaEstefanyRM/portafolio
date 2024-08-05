@@ -1,9 +1,7 @@
 .container {
     display: flex; /* Activa el diseño de flexbox */
-    justify-content: space-between; /* Espacio entre las tarjetas */
-    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan si no caben en una fila */
-    margin: 30px; /* Espacio alrededor del contenedor */
-    height: 120vh;
+
+
 
 }
 
@@ -41,13 +39,13 @@ html {
 }
 
 .iconos{
-  margin-top: 150px;
+  margin-top: 250px;
 }
 
 .sticky-test{
   width: 100%;
 
-            padding: 10px;
+            padding: 50px;
 
             position: sticky;
             top: 0;
@@ -55,3 +53,53 @@ html {
             overflow: hidden; /* Evita el scroll en la parte izquierda */
 
 }
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  overflow: hidden; /* Evita el desplazamiento */
+}
+
+/* .content {
+  text-align: center;
+  position: relative;
+} */
+
+.container {
+
+  position: relative;
+  background-color: #f0f0f000;
+}
+
+.cursor {
+  position: absolute;
+  width: 900px;
+  height: 900px;
+  border: 1px solid #2d149d00;
+  /* background-color: #20155061;
+  background: linear-gradient(135deg, #6c3b57, #f0b67f); */
+  background: radial-gradient(circle, rgba(131, 148, 150, 0.094), #06044500);
+  border-radius: 50%;
+  pointer-events: none; /* No interferir con los clics */
+  transition: background-color 0.3s, transform 0.3s;
+  z-index: 1000;
+  transform: translate(-50%, -50%); /* Centra el cursor */
+}
+
+.hover-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #333;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+
+
